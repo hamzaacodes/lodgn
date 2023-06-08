@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700;1,900&family=Poppins:wght@300;400&display=swap');
+
+.home-page {
+  background-color: #d9d9d9;
+  width: 100%;
+  position: relative !important;
+}
+
+.home-page .main {
+  width: 90%;
+}
+.home-page .main h2 {
+  font-size: 24px;
+  color: #72AA83;
+}
+.home-page .main .container-fluid {
+  width: 92% !important;
+}
+
+.home-page .main .row {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-page .main .row:first-child {
+  height: 100px;
+}
+.home-page .main .row:last-child {
+  margin-top: 40px;
+  height: fit-content;
+}
+
+.home-page .contact-div {
+  position: absolute;
+  right: 106px;
+  bottom: 85px;
+  height: 104px;
+  width: 111px;
+  background-color: #44A16F;
+  padding: 10px;
+  border-radius: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-page .contact-div img {
+  height: 74px;
+}

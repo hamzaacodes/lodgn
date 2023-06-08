@@ -1,0 +1,37 @@
+.package {
+    height: 183px;
+    width: 228px;
+    background-color: #F5F4F4;
+    border: 1px solid #b3b3b3;
+    border-radius: 23px;
+}
+
+.package .package-head {
+    color: #85C371;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 60%;
+}
+
+.package .package-bottom {
+    font-size: 14px;
+    color: #959595;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #b3b3b3;
+    border-radius: 23px;
+
+    box-shadow: -1px -4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.package .package-bottom button {
+    background-color: #44A16F;
+    font-size: 14px;
+}

@@ -1,0 +1,21 @@
+.request-header .heads {
+    font-size: 22px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: #5cac86;
+
+    display: flex;
+    justify-content: center;
+}
+.request-header .heads .sub-text {
+    color: #959595;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.request-header .left-line {
+    width: 1px;
+    height: 60px;
+    background-color: #959595;
+}

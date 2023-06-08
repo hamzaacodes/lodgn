@@ -1,0 +1,37 @@
+.request-round {
+    background-color: #fff;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.25);
+    width: 85%;
+    height: fit-content;
+    padding-top: 25px;
+    border-radius: 28px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+.request-round .status-bar {
+    background-color: #44A16F;
+    border-radius: 23px;
+    border: 1px solid #959595;
+    height: 36px;
+    width: 71%;
+    display: flex;
+}
+
+.request-round .status-bar div {
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.request-round .status-bar .negotiating { 
+    border-right: 1px solid #959595;
+    width: 20%;
+}
+.request-round .status-bar .completed { 
+    width: 40%;
+}

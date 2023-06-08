@@ -1,0 +1,59 @@
+.sidebar {
+  background-color: #fff;
+  width: 296px;
+  height: 100vh;
+
+  box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.25);
+}
+
+.sidebar .sidebar-container {
+  height: 90vh;
+  width: 100%;
+}
+.sidebar h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* --------- Upper div ------------ */
+.sidebar .list-div {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  height: 300px;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sidebar .list-div div:first-child {
+  color: #72aa83;
+}
+.sidebar .bottom-line {
+  height: 2px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.29);
+}
+
+/* --------- Bottom div ------------ */
+
+.sidebar .bottom-div {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sidebar .logout-btn {
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 700;
+  background-color: rgb(72, 175, 120);
+  color: #fff !important;
+  height: 50px;
+  width: 100%;
+}
